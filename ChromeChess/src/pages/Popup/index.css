@@ -1,5 +1,13 @@
+:root{
+  --tile-size: 50px;
+  --light-tile: #f0d8b7
+  --dark-tile: #b48764
+  --bg-color: #202020
+}
+
+
 body {
-  min-width: 400px;
+  min-width: 440px;
   min-height: 600px;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
