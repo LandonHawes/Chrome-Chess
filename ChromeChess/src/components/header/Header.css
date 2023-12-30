@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  margin-top: -50px;
+}
+
+.header-text {
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 2px #000;
+}

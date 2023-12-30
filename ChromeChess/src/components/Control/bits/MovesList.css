@@ -1,0 +1,39 @@
+.moves-list {
+  display: flex;
+  flex-direction: row;
+  color: #b48764;
+  flex: 1 1;
+  flex-wrap: wrap;
+  align-content: start;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-size: 1.1em;
+  max-height: 80px;
+  /* height: 100px; */
+  margin-bottom: 20px;
+  max-width: 390px;
+}
+.moves-list div {
+  flex-basis: 35%;
+  padding-left: 15%;
+  text-align: left;
+  position: relative;
+  padding-bottom: 5px;
+}
+.moves-list div[data-number]:nth-child(odd)::before {
+  content: attr(data-number);
+  position: absolute;
+  left: 0;
+  opacity: 0.5;
+}
+
+.take-back {
+  position: absolute;
+  left: 40%;
+  bottom: 10px;
+  border-radius: 5px;
+  color: #f0d8b7;
+  border: 1px solid #b48764;
+  background-color: #b48764;
+  cursor: pointer;
+}
